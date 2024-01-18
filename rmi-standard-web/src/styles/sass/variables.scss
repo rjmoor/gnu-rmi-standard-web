@@ -1,0 +1,327 @@
+// Base Colors
+$color-base: #ffffff; // Example base color
+$color-primary: #011B56; // Example primary color
+$color-secondary: #2ecc71; // Example secondary color
+$color-accent: #e74c3c; // Example accent color
+$color-light-gray: #ecf0f1; // Example light gray color
+$color-dark-gray: #34495e; // Example dark gray color
+
+// Common Colors
+$color-white: #ffffff;
+$color-black: #000000;
+$color-gray: #808080;
+$color-red: #ff0000;
+$color-green: #00ff00;
+$color-blue: #0000ff;
+$color-yellow: #ffff00;
+$color-orange: #ffa500;
+$color-purple: #800080;
+$color-pink: #ffc0cb;
+$color-brown: #a52a2a;
+
+
+// Sherwin Williams Colors of the Year
+$color-2022-green-EvergreenFog: #5E7463; // Evergreen Fog: Grayish Green
+$color-2021-brown-UrbaneBronze: #635147; // Urbane Bronze: Bold, Dramatic Brown
+$color-2020-blue-Naval: #123955; // Naval: Classic Navy Blue
+$color-2019-orange-CavernClay: #b46a55; // Cavern Clay: Dark Reddish Orange
+$color-2018-blue-Oceanside: #015c7b; // Oceanside: Deep Teal Blue
+$color-2017-purple-PoisedTaupe: #9c8d7e; // Poised Taupe: Muddy Purple
+$color-2016-white-Alabaster: #edeae0; // Alabaster: Popular White
+$color-2015-pink-CoralReef: #f88379; // Coral Reef: Deep Pink
+$color-2014-purple-ExclusivePlum: #6e6378; // Exclusive Plum: Smokey Purple
+
+// Fonts
+$font-stack-CrimsonText: 'Crimson Text', serif;
+$font-stack-Copperplate: 'Copperplate', 'Copperplate Gothic Light', serif;
+$font-stack-CooperBlack: 'Cooper Black', cursive;
+$font-stack-ComicSans: 'Comic Sans MS', cursive, sans-serif;
+$font-stack-Courier: 'Courier', monospace;
+$font-stack-Georgia: 'Georgia', serif;
+$font-stack: 'Roboto', sans-serif;
+$font-stack-Verdana: 'Verdana', sans-serif;
+$font-stack-Garamond: 'Garamond', serif;
+$font-stack-Arial: 'Arial', Helvetica, sans-serif;
+$font-stack-Times: 'Times New Roman', Times, serif;
+$font-stack-Helvetica-Arial: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-stack-Helvetica: 'Helvetica Neue', sans-serif;
+$font-stack-OpenSans: 'Open Sans', sans-serif;
+$font-stack-Roboto: 'Roboto', sans-serif;
+$font-stack-RobotoMono: 'Roboto Mono', monospace;
+$font-stack-RobotoSlab: 'Roboto Slab', serif;
+$font-stack-RobotoCondensed: 'Roboto Condensed', sans-serif;
+$font-size-base: 16px;
+
+
+// Font Sizes
+$font-size-1: 3rem;
+$font-size-2: 2.25rem;
+$font-size-3: 1.5rem;
+$font-size-4: 1.25rem;
+$font-size-5: 1rem;
+$font-size-6: 0.875rem;
+$font-size-7: 0.75rem;
+
+// Font Weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// Line Heights
+$line-height-1: 1.5;
+$line-height-2: 1.25;
+$line-height-3: 1.125;
+$line-height-4: 1;
+
+// Letter Spacing
+$letter-spacing-1: 0.3rem;
+$letter-spacing-2: 0.25rem;
+$letter-spacing-3: 0.2rem;
+$letter-spacing-4: 0.15rem;
+$letter-spacing-5: 0.1rem;
+
+// Spacing
+$spacing-base-100: 10px;
+$spacing-base-200: 20px;
+$spacing-base-300: 30px;
+$spacing-base-400: 40px;
+$spacing-base-500: 50px;
+$spacing-base-600: 60px;
+$spacing-base-700: 70px;
+$spacing-base-800: 80px;
+$spacing-base-900: 90px;
+
+// Margins
+$margin-base-100: 10px;
+$margin-base-200: 20px;
+$margin-base-300: 30px;
+$margin-base-400: 40px;
+$margin-base-500: 50px;
+$margin-base-600: 60px;
+$margin-base-700: 70px;
+$margin-base-800: 80px;
+$margin-base-900: 90px;
+$margin-base-1000: 100px;
+$margin-base-small: 120px;
+$margin-base-medium: 150px;
+$margin-base-large: 200px;
+
+// Padding
+$padding-base-100: 10px;
+$padding-base-200: 20px;
+$padding-base-300: 30px;
+$padding-base-400: 40px;
+$padding-base-500: 50px;
+$padding-base-600: 60px;
+$padding-base-700: 70px;
+$padding-base-800: 80px;
+$padding-base-900: 90px;
+$padding-base-1000: 100px;
+$padding-base-small: 120px;
+$padding-base-medium: 150px;
+$padding-base-large: 200px;
+
+
+// Widths
+$width-1: 25%;
+$width-2: 50%;
+$width-3: 75%;
+$width-4: 100%;
+
+// Heights
+$height-1: 25%;
+$height-2: 50%;
+$height-3: 75%;
+$height-4: 100%;
+$height-5: auto;
+
+// Max Widths
+$max-width-1: 25rem;
+$max-width-2: 32rem;
+$max-width-3: 48rem;
+$max-width-4: 64rem;
+$max-width-5: 80rem;
+
+// Min Widths
+$min-width-1: 25rem;
+$min-width-2: 32rem;
+$min-width-3: 48rem;
+$min-width-4: 64rem;
+$min-width-5: 80rem;
+
+// Max Heights
+$max-height-1: 25rem;
+$max-height-2: 32rem;
+$max-height-3: 48rem;
+$max-height-4: 64rem;
+$max-height-5: 80rem;
+
+// Min Heights
+$min-height-1: 25rem;
+$min-height-2: 32rem;
+$min-height-3: 48rem;
+$min-height-4: 64rem;
+$min-height-5: 80rem;
+
+// Opacity
+$opacity-1: 0.1;
+$opacity-2: 0.2;
+$opacity-3: 0.3;
+$opacity-4: 0.4;
+$opacity-5: 0.5;
+$opacity-6: 0.6;
+$opacity-7: 0.7;
+$opacity-8: 0.8;
+$opacity-9: 0.9;
+$opacity-10: 1;
+
+// Transitions
+$transition-1: 0.1s;
+$transition-2: 0.2s;
+$transition-3: 0.3s;
+$transition-4: 0.4s;
+$transition-5: 0.5s;
+$transition-6: 0.6s;
+$transition-7: 0.7s;
+$transition-8: 0.8s;
+$transition-9: 0.9s;
+$transition-10: 1s;
+
+// Transforms
+$transform-1: 0.1s;
+$transform-2: 0.2s;
+$transform-3: 0.3s;
+$transform-4: 0.4s;
+$transform-5: 0.5s;
+$transform-6: 0.6s;
+$transform-7: 0.7s;
+$transform-8: 0.8s;
+$transform-9: 0.9s;
+$transform-10: 1s;
+
+// Animations
+$animation-1: 0.1s;
+$animation-2: 0.2s;
+$animation-3: 0.3s;
+$animation-4: 0.4s;
+$animation-5: 0.5s;
+$animation-6: 0.6s;
+$animation-7: 0.7s;
+$animation-8: 0.8s;
+$animation-9: 0.9s;
+$animation-10: 1s;
+
+// Grid
+$grid-columns: 12;
+$grid-gutter-width: 30px;   // Example gutter width
+$grid-breakpoints: (
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);
+
+// Grid Breakpoints
+$grid-breakpoints-sm: 576px;
+$grid-breakpoints-md: 768px;
+$grid-breakpoints-lg: 992px;
+$grid-breakpoints-xl: 1200px;
+$grid-breakpoints-xxl: 1400px;
+
+// Grid Container Max Widths
+$grid-container-max-widths-sm: 540px;
+$grid-container-max-widths-md: 720px;
+$grid-container-max-widths-lg: 960px;
+$grid-container-max-widths-xl: 1140px;
+$grid-container-max-widths-xxl: 1320px;
+
+// Grid Columns
+$grid-columns-sm: 12;
+$grid-columns-md: 12;
+$grid-columns-lg: 12;
+$grid-columns-xl: 12;
+$grid-columns-xxl: 12;
+
+// Grid Gutter Widths
+$grid-gutter-width-sm: 30px;
+$grid-gutter-width-md: 30px;
+$grid-gutter-width-lg: 30px;
+$grid-gutter-width-xl: 30px;
+$grid-gutter-width-xxl: 30px;
+
+// Grid Breakpoints
+$grid-breakpoints-sm: 576px;
+$grid-breakpoints-md: 768px;
+$grid-breakpoints-lg: 992px;
+$grid-breakpoints-xl: 1200px;
+$grid-breakpoints-xxl: 1400px;
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+// Z-Index
+$z-index-1: 1;
+$z-index-2: 2;
+$z-index-3: 3;
+$z-index-4: 4;
+$z-index-5: 5;
+$z-index-6: 6;
+$z-index-7: 7;
+$z-index-8: 8;
+$z-index-9: 9;
+$z-index-10: 10;
+
+// Shadows
+$shadow-1: 0 0 0 1px rgba(0, 0, 0, 0.05);
+$shadow-2: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-3: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-4: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+$shadow-5: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+$shadow-6: 0 15px 25px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(0, 0, 0, 0.06);
+$shadow-7: 0 20px 40px 0 rgba(0, 0, 0, 0.15);
+$shadow-8: 0 25px 50px 0 rgba(0, 0, 0, 0.15);
+$shadow-9: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 25px 50px 0 rgba(0, 0, 0, 0.15);
+$shadow-10: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 35px 60px 0 rgba(0, 0, 0, 0.3);
+
+// Border Radius
+$border-radius-base: 3px;
+$border-radius-large: 6px;
+$border-radius-round: 50%;
+$border-radius-pill: 50rem;
+
+// Border Width
+$border-width-base: 1px;
+$border-width-large: 3px;
+
+// Border Style
+$border-style-solid: solid;
+$border-style-dashed: dashed;
+$border-style-dotted: dotted;
+
+// Border Color
+$border-color-base: $color-base;
+$border-color-primary: $color-primary;
+$border-color-secondary: $color-secondary;
+$border-color-accent: $color-accent;
+$border-color-light-gray: $color-light-gray;
+$border-color-dark-gray: $color-dark-gray;
+
+// em
+$em-base: 16px;
+
+// rem
+$rem-base: 16px;
+
+// vh
+$vh-base: 100vh;
+
+// vw
+$vw-base: 100vw;
+
+// px
+$px-base: 1px;

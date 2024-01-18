@@ -1,0 +1,10 @@
+.social-links {
+    &__link {
+      display: inline-block;
+      margin-right: $spacing-base;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  

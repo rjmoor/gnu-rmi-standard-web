@@ -1,0 +1,23 @@
+@mixin button-style($bg-color: $color-primary) {
+    padding: $spacing-base;
+    border: none;
+    background-color: $bg-color;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+    &:hover {
+      background-color: darken($bg-color, 10%);
+    }
+  }
+  
+  @mixin form-input-style {
+    padding: $spacing-base / 2;
+    margin: $spacing-base / 2 0;
+    display: block;
+    width: 100%;
+    border: 1px solid $color-light-gray;
+    border-radius: 3px;
+  }
+  

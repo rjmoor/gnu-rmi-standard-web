@@ -1,0 +1,10 @@
+.btn {
+    @include button-style;
+    &--primary {
+      @include button-style($color-primary);
+    }
+    &--secondary {
+      @include button-style($color-secondary);
+    }
+  }
+  

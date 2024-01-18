@@ -1,0 +1,15 @@
+.nav {
+    background-color: $color-dark-gray;
+    &__item {
+      list-style-type: none;
+      display: inline;
+      &--link {
+        color: white;
+        padding: $spacing-base;
+        &:hover {
+          background-color: $color-secondary;
+        }
+      }
+    }
+  }
+  

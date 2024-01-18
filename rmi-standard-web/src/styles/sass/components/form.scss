@@ -1,0 +1,9 @@
+.form {
+    &__input {
+      @include form-input-style;
+    }
+    &__submit {
+      @include button-style($color-accent);
+    }
+  }
+  
