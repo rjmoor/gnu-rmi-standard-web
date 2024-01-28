@@ -1,11 +1,11 @@
 body {
-    font-family: $font-stack;
-    font-size: $font-size-base;
+        font-family: $font-stack;
+        font-size: $font-size-base;
+        color: $color-dark-gray;
+        background-color: $color-light-gray;
+    }
+    
+h1, h2, h3, h4, h5, h6 {
     color: $color-dark-gray;
-    background-color: $color-light-gray;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    color: $color-dark-gray;
-  }
-  
+}
+    
